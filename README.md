@@ -3,9 +3,9 @@ TFTP server and client in Python 3
 
 ## Supported features
 * RFC 1350 - TFTP revision 2
-*   Octet mode transfer (netascii and mail unsupported)
-*   Read request (RRQ) only, no write capability
-*   Limited error reporting (e.g. all file reading errors reported as FILE_NOT_FOUND, real reason in message string)
+  * Octet mode transfer (netascii and mail unsupported)
+  * Read request (RRQ) only, no write capability
+  * Limited error reporting (e.g. all file reading errors reported as FILE_NOT_FOUND, real reason in message string)
 * RFC 2347 - TFTP option Extension
 * RFC 2348 - TFTP Blocksize Option
 * RFC 7440 - TFTP Windowsize Option
